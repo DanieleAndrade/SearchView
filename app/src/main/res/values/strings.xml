@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">SearchView</string>
+    <string name="app_name">FisioHome</string>
     <string name="title_activity_login">Login</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Senha</string>
-    <string name="action_sign_in">Login ou Cadastre-se</string>
+    <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Login</string>
     <string name="error_invalid_email">Este endereço de email é invalido</string>
     <string name="error_invalid_password">Esta senha é muito curta</string>
