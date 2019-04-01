@@ -7,3 +7,7 @@
 /build
 /captures
 .idea/**
+.settings/org.eclipse.buildship.core.prefs
+.project
+app/.classpath
+app/.settings/org.eclipse.buildship.core.prefs

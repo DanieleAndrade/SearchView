@@ -22,24 +22,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        arrayList.add("January");
-        arrayList.add("February");
-        arrayList.add("March");
-        arrayList.add("April");
-        arrayList.add("May");
-        arrayList.add("June");
-        arrayList.add("July");
-        arrayList.add("August");
-        arrayList.add("September");
-        arrayList.add("October");
-        arrayList.add("November");
-        arrayList.add("December");
+        arrayList.add("Fisio 0");
+        arrayList.add("Fisio 1");
+        arrayList.add("Fisio 2");
+        arrayList.add("Fisio 3");
+        arrayList.add("Fisio 4");
+        arrayList.add("Fisio 5");
+        arrayList.add("Fisio 6");
+        arrayList.add("Fisio 7");
+        arrayList.add("Fisio 8");
+        arrayList.add("Fisio 9");
+        arrayList.add("Fisio 10");
+        arrayList.add("Fisio 11");
 
         adapter= new ListAdapter(arrayList);
         activityMainBinding.listView.setAdapter(adapter);
 
         activityMainBinding.search.setActivated(true);
-        activityMainBinding.search.setQueryHint("Type your keyword here");
+        activityMainBinding.search.setQueryHint("Pesquisar Fisioterapeuta");
         activityMainBinding.search.onActionViewExpanded();
         activityMainBinding.search.setIconified(false);
         activityMainBinding.search.clearFocus();
